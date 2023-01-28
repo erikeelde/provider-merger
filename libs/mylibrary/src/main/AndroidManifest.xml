@@ -3,15 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools">
     <queries>
 <!--        Omitting android:name makes the build fail -->
-        <provider
-            android:authorities="com.example.myapplication.mylibrary.authority"
-            tools:ignore="MissingClass" />
-
-<!--        Providing android:name makes it work again. -->
 <!--        <provider-->
 <!--            android:authorities="com.example.myapplication.mylibrary.authority"-->
-<!--            android:name="com.example.myapplication.mylibrary.provider"-->
 <!--            tools:ignore="MissingClass" />-->
+
+<!--        Providing android:name makes it work again. -->
+        <provider
+            android:authorities="com.example.myapplication.mylibrary.authority"
+            android:name="com.example.myapplication.mylibrary.provider"
+            tools:ignore="MissingClass" />
 
 
     </queries>
