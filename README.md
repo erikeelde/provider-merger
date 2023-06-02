@@ -17,3 +17,5 @@ It seems omitting android:name makes the build fail. Either the documentation sh
 the requirement of adding android:name or the merger should work with it omitted. Considering adding
 it requires an additional addition to tools:ignore="MissingClass" it is likely better from a 
 consumer standpoint to make the merger work with android:name omitted.
+
+Google issue this repo is connected to: https://issuetracker.google.com/issues/190140481
